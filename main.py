@@ -3,7 +3,7 @@ import sys
 import urllib.parse
 import requests
 from bs4 import BeautifulSoup
-
+cookies =""
 if cookies == "":
     if os.environ.get("POJIE"):
         cookies = os.environ.get("POJIE")
